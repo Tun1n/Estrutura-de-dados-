@@ -7,8 +7,8 @@ function converter() {
 
     let conversão = (dolar * 4.86);
     conversão = parseFloat(conversão);
-    document.getElementById("conversão").innerHTML = "Seu valor de dolar em reais é: " + conversão;
-
+    document.getElementById("conversão").innerHTML = "Seu valor de dolar em reais é: " + conversão; 
+    
     
 }
     
