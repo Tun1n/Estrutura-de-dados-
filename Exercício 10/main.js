@@ -9,7 +9,7 @@ function atraso() {
     let Dias = Number(document.getElementById('valor3').value);
     document.getElementById("Dias").innerHTML = "Os dias atrasados são igual a: " + Dias;
 
-    let Prestação = Valorprest + ((Valorprest* Dias * juros/100));
+    let Prestação = Valorprest + ((Valorprest * Dias * juros));
     document.getElementById("Prestação").innerHTML = "As prestações atrasadas tem o valor de: " + Prestação;
 
 
