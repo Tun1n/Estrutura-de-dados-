@@ -13,5 +13,5 @@ function atraso() {
     document.getElementById("Prestação").innerHTML = "As prestações atrasadas tem o valor de: " + Prestação;
 
 
-}
+} 
     
